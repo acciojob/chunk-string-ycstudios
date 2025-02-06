@@ -1,8 +1,8 @@
 function stringChop(str, size) {
     let result = [];
-	if(str===''){
-		return result;
-	}
+	 if (!str) { 
+        return result;
+    }
     
     for (let i = 0; i < str.length; i += size) {
 		let string=str.slice(i, i + size)
